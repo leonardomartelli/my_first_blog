@@ -3,9 +3,6 @@ h2 a {
   color: #ef233c;
   font-family: "Courier New", Courier, monospace;
 }
-p {
-  color: #e6d7c6;
-}
 body {
   padding-left: 15px;
   background-color: #393e41;
@@ -48,9 +45,18 @@ body {
   margin-bottom: 70px;
 }
 
+.post p {
+  color: #e6d7c6;
+}
+
 .post h2,
 .post h2 a,
-.post h2 a:visited {
+.post h2 a:visited,
+.post-edit h2 {
   color: #e7bb41;
   font-family: "Courier New", Courier, monospace;
+}
+
+.post-edit p {
+  color: #44bba4;
 }
